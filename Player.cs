@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace SpaceGame
 {
-    public static class Player
+    public static class Player 
     {
+
+            
         //Player name
        private static string PlayerName = "";
-
+        private static string Ship;
         //Print out Game title and over view
         public static void StartGame()
         {
@@ -43,7 +45,8 @@ namespace SpaceGame
             Console.Clear();
             Console.WriteLine("Welcome " + PlayerName);
             Console.ReadKey();
-        }
-       
+            Console.Clear();
+        }   
+        
     }
 }
